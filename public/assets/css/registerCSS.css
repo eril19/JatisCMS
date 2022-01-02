@@ -1,0 +1,47 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
+.float-register{
+    height: 100%;
+    display: flex;
+}
+
+.registerLeft{
+    padding-top: 8%;
+    color: antiquewhite;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(2, 23, 90);
+}
+
+.registerRight{
+    width: 60%;
+    height: 100%;
+    background-color: #ff6c20;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.registerForm{
+    margin-left: 70px;
+}
+
+.mb-3{
+    margin-top: 30px;
+}
+
+form{
+    width: 350px;
+}
+
+.btn{
+    width: 350px;
+}
+
+.haveAccount{
+    margin-top: 30px;
+    text-align: right;
+}

@@ -1,0 +1,460 @@
+body,
+html {
+  margin: 0;
+  background-color: #f7f8f9;
+  width: 100%;
+  
+}
+
+.icons{
+    display: flex; margin-top: 60px
+}
+
+.jumbotron{
+    height: 959px;
+}
+
+.front{
+    position: relative;
+    bottom: 730px;
+}
+
+.form-control, .input-group{
+    background-color: #f5f8fa;
+    color: #cbd6e2;
+}
+
+.form-select, option{
+    background-color: #f5f8fa;
+}
+
+.btndiv{
+    display: flex;
+    justify-content: center;
+}
+
+.captcha{
+    width: 400px; 
+    height: 138px; 
+    margin-bottom: 50px
+}
+
+form{
+    position: relative;
+    bottom: 100px;
+    
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    margin :0 auto;
+    background:white;
+    box-sizing:content-box;
+    box-shadow: 0 10px 10px #ebebeb;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+
+
+#bluecircle{
+    left: 1755px; 
+    bottom: 50%;  
+    width: 142px;
+}
+
+#redcircle{
+    bottom: 95px; 
+    left: 440px; 
+    width: 187.1px
+}
+
+#title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: relative;
+  bottom: 75%;
+  font-size: 60px;
+  width: 55%;
+}
+
+/* .upperfooter{
+    font-family: "Poppins";
+} */
+
+li,ul{
+    list-style-type: none;
+}
+
+#submitun, #submitun2{
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    border-color: #ff6c20;
+}
+
+@media (max-width: 1199.98px) {
+    .front{
+        position: relative;
+        bottom: 430px;
+    }
+    
+    #bluecircle{
+        left: 1052px; 
+        bottom: auto;
+    }
+
+    #title {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        position: relative;
+        bottom: 65%;
+        font-size: 35px;
+        width: 65%;
+      }
+    
+    #redcircle{
+        bottom: 40px; 
+        left: 240px; 
+        width: 100px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .front{
+        position: relative;
+        bottom: 390px;
+    }
+    
+    #bluecircle{
+        position: sticky;
+        left: 891px; 
+        width: 100px;
+        bottom: auto;
+    }
+
+    #title {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        position: relative;
+        bottom: 65%;
+        font-size: 33px;
+        width: 73%;
+      }
+    
+    #redcircle{
+        bottom: 33px; 
+        left: 220px; 
+        width: 95px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #title {
+        font-size: 20px;
+        width: 55%;
+        /* bottom: 75%; */
+      }
+    
+      h1{
+          margin: auto;
+      }
+    
+      #redcircle{
+        left: 40px;
+        width: 10%;
+      }
+    
+      #bluecircle {
+        top: 50px;
+        left: 610px;
+        bottom: auto;
+        width: 20%;
+      }
+
+      .nav-link{
+          font-size: 15px;
+      }
+      
+      .form-control{
+          padding: 0;
+      }
+    
+      .front{
+          position: relative;
+          bottom: 320px;
+      }
+    
+      .jumbotron{
+          width: 100%;
+          height: 200px;
+      }
+    
+      form{
+        position: relative;
+        bottom: 110px;
+        align-items: center;
+        width: 320px;
+        padding: 40px;
+        background:white;
+        border-radius: 15px;
+        margin-bottom: 10%;
+      }
+    
+      .upperfooter .row{
+        margin-bottom: 5px;
+    }
+    
+    .icons{
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+    
+    label, .form-text{
+        font-size: 12px;
+    }
+    
+    #submitun{
+        
+        margin-right: 0;
+    }
+    
+    
+    .captcha{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #title {
+    font-size: 20px;
+    width: 55%;
+    /* bottom: 75%; */
+  }
+
+  h1{
+      margin: auto;
+  }
+
+  #redcircle{
+    left: 40px;
+    width: 20%;
+  }
+
+  #bluecircle {
+    top: 50px;
+    left: 400px;
+    bottom: auto;
+    width: 30%;
+  }
+  
+  .form-control{
+      padding: 0;
+  }
+
+  .front{
+      position: relative;
+      bottom: 120px;
+  }
+
+  .jumbotron{
+      width: 100%;
+      height: auto;
+  }
+
+  form{
+    position: relative;
+    bottom: 110px;
+    align-items: center;
+    width: 320px;
+    padding: 20px;
+    background:white;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    box-shadow: 0 10px 10px #ebebeb;
+  }
+
+  .upperfooter .row{
+    margin-bottom: 5px;
+}
+
+.icons{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+label, .form-text{
+    font-size: 12px;
+}
+
+#submitun{
+    
+    margin-right: 0;
+}
+
+
+.captcha{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+}
+}
+
+@media (max-width: 376px) {
+    #title {
+      font-size: 20px;
+      width: 55%;
+      /* bottom: 75%; */
+    }
+  
+    h1{
+        margin: auto;
+    }
+  
+    #redcircle{
+      left: 40px;
+      width: 20%;
+    }
+  
+    #bluecircle {
+      top: 50px;
+      left: 263px;
+      bottom: auto;
+      width: 30%;
+    }
+    
+    .form-control{
+        padding: 0;
+    }
+  
+    .front{
+        position: relative;
+        bottom: 120px;
+    }
+  
+    .jumbotron{
+        width: 100%;
+        height: auto;
+    }
+  
+    form{
+      position: relative;
+      bottom: 110px;
+      align-items: center;
+      width: auto;
+      width: 320px;
+      padding: 15px;
+      background:white;
+      border-radius: 15px;
+      margin-bottom: 10%;
+      box-shadow: 0 10px 10px #ebebeb;
+    }
+  
+    .upperfooter .row{
+      margin-bottom: 5px;
+  }
+  
+  .icons{
+      margin-top: auto;
+      margin-bottom: 30px;
+  }
+  
+  label, .form-text{
+      font-size: 12px;
+  }
+  
+  #submitun{
+      
+      margin-right: 0;
+  }
+  
+  
+  .captcha{
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      height: auto;
+  }
+  }
+
+
+  @media (max-width: 321px) {
+    #title {
+      font-size: 20px;
+      width: 55%;
+      /* bottom: 75%; */
+    }
+  
+    h1{
+        margin: auto;
+    }
+  
+    #redcircle{
+      left: 40px;
+      width: 20%;
+    }
+  
+    #bluecircle {
+      top: 50px;
+      left: 224px;
+      bottom: auto;
+      width: 30%;
+    }
+    
+    .form-control{
+        padding: 0;
+    }
+  
+    .front{
+        position: relative;
+        bottom: 120px;
+    }
+  
+    .jumbotron{
+        width: 100%;
+        height: auto;
+    }
+  
+    form{
+      position: relative;
+      bottom: 110px;
+      align-items: center;
+      width: auto;
+      padding: 10px;
+      background:white;
+      border-radius: 15px;
+      margin-bottom: 10%;
+      box-shadow: 0 10px 10px #ebebeb;
+    }
+  
+    .upperfooter .row{
+      margin-bottom: 5px;
+  }
+  
+  .icons{
+      margin-top: auto;
+      margin-bottom: 30px;
+  }
+  
+  label, .form-text{
+      font-size: 12px;
+  }
+  
+  #submitun{
+      
+      margin-right: 0;
+  }
+  
+  
+  .captcha{
+      display: flex;
+      justify-content: center;
+      width: 280px;
+      height: auto;
+  }
+  }
